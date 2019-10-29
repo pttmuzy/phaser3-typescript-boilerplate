@@ -1,0 +1,9 @@
+{
+    "preload": {
+        "files": [{
+            "type": "image",
+            "key": "logo",
+            "url": "./src/assets/phaser.png"
+        }]
+    }
+}
