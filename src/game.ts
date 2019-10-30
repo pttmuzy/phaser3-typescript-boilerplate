@@ -1,6 +1,6 @@
 import "phaser";
 import { MainScene } from "./scenes/MainScene";
-import { config } from "./config"
+import { config } from "./misc/Config"
 
 // game class
 export class Game extends Phaser.Game {

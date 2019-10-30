@@ -1,7 +1,9 @@
 import { Logo } from "../objects/Logo";
+import { GameState } from "../misc/GameState";
 
 export class MainScene extends Phaser.Scene {
-    private logo: Phaser.GameObjects.Sprite;
+    logo: Phaser.GameObjects.Sprite;
+    state: GameState;
 
     constructor() {
         super({
@@ -14,7 +16,7 @@ export class MainScene extends Phaser.Scene {
     }
 
     init(): void {
-
+        this.state = new GameState();
     }
 
     create(): void {
@@ -24,5 +26,7 @@ export class MainScene extends Phaser.Scene {
             y: 200,
             asset: "logo"
         });
+
+        this.state.set("isLogoOk", true);
     }
 }
