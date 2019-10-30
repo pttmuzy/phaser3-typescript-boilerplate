@@ -6,20 +6,10 @@
   Phaser 3 Game Examples written in TypeScript.
 </p>
 
-<div align="center">
-
-  ![Dependencies](https://img.shields.io/david/digitsensitive/phaser3-typescript.svg)
-  ![GitHub issues](https://img.shields.io/github/issues/digitsensitive/phaser3-typescript.svg)
-  ![GitHub stars](https://img.shields.io/github/stars/digitsensitive/phaser3-typescript.svg)
-  ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
-  ![Code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
-  ![GitHub licence](https://img.shields.io/github/license/digitsensitive/phaser3-typescript.svg)
-
-</div>
-
 <p align="center">
   <sub>
     Boilerplate extracted from and created by <a href="https://github.com/digitsensitive">digitsensitive</a></br>
+    Modified by <a href="https://github.com/ramceconcepcion">ramceconcepcion</a></br>
     Framework created by <a href="https://github.com/photonstorm">Photonstorm</a>
   </sub>
 </p>
@@ -47,7 +37,7 @@ Select a folder, navigate to it, and clone this repository
 with this command-line:
 
 ```
-git clone https://github.com/digitsensitive/phaser3-typescript.git
+git clone https://github.com/ramceconcepcion/phaser3-typescript-boilerplate.git
 ```
 
 Install the dependencies with this command-line:
