@@ -1,14 +1,16 @@
 import { Logo } from "../objects/Logo";
 import { GameState } from "../misc/GameState";
 
+import { config } from "../misc/Config";
+
 export class MainScene extends Phaser.Scene {
-    logo: Phaser.GameObjects.Sprite;
-    state: GameState;
+    state: GameState; //game state
+
+    logo: Phaser.GameObjects.Sprite; //logo sprite
+    titleText: Phaser.GameObjects.Text; //title text on canvas
 
     constructor() {
-        super({
-            key: "MainScene"
-        });
+        super("MainScene");
     }
 
     preload(): void {
@@ -28,5 +30,20 @@ export class MainScene extends Phaser.Scene {
         });
 
         this.state.set("isLogoOk", true);
+
+        this.createTitle();
+    }
+
+    createTitle() {
+        this.titleText = this.add.text(
+            config.width as number / 2,
+            50,
+            "phaser3-typescript-boilerplate",
+            {
+                fontFamily: "Connection, Verdana, Calibri",
+                fontSize: "26px",
+                color: "#fff"
+            }
+        ).setOrigin(0.5);
     }
 }
