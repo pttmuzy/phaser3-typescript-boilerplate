@@ -34,13 +34,8 @@ Download and install npm with Node.js @ https://nodejs.org/en
 ### Installing
 
 Select a folder, navigate to it, and clone this repository
-with this command-line:
 
-```
-git clone https://github.com/ramceconcepcion/phaser3-typescript-boilerplate.git
-```
-
-Install the dependencies with this command-line:
+Install the dependencies with:
 
 ```
 npm install
